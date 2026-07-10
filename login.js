@@ -19,7 +19,7 @@ localStorage.setItem("usuarioLogado",JSON.stringify(usuarioEncontrado));
 
 alert("Bem-vindo "+usuarioEncontrado.nome);
 
-window.location.href="index.html";
+window.location.href="home.html";
 
 }else{
 

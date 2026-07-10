@@ -1,154 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-<title>Portal Inteligentes</title>
-<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Login | Agro Futuro</title>
+
+<link rel="stylesheet" href="login.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
 
-<header class="header">
+<div class="background"></div>
 
-    <div class="logo">
-      ⚡​​ <span>NEXUS Script</span>
-    </div>
+<div class="login-box">
 
-    <nav>
+<h1>Agro Futuro</h1>
 
-        <a href="index.html">Início</a>
+<p>Faça login para continuar</p>
 
-        <a href="sobre.html">Sobre</a>
+<form id="loginForm">
 
-        <a href="aula.html">Aula</a>
+<div class="input-box">
+<i class="fa-solid fa-user"></i>
+<input type="text" id="usuario" placeholder="Usuário" required>
+</div>
 
-        <a href="contato.html">Contato</a>
+<div class="input-box">
+<i class="fa-solid fa-lock"></i>
+<input type="password" id="senha" placeholder="Senha" required>
 
+<span id="mostrarSenha">
+<i class="fa-solid fa-eye"></i>
+</span>
 
-    </nav>
+</div>
 
-</header>
+<div class="opcoes">
 
-<section class="hero">
+<label>
 
-    <h1 class="titulo">
-       🚀 Portal Inteligente dos Alunos
-    </h1>
+<input type="checkbox">
 
-    <p class="subtitulo">
-        Scripts, Inteligência Artificial e ferramentas modernas para tornar seus estudos
-        mais rápidos, organizados e produtivos.
-    </p>
+Lembrar-me
 
-</section>
+</label>
 
-<footer>IG do criador: @s.souzxxs12</footer>
+<a href="#">Esqueci minha senha</a>
 
-<script src="script.js"></script>
-</body>
-</html>
+</div>
 
-<div class="botoes-agro">
+<button type="submit">
 
-<a href="frases-khan.html" class="agro-card">
+Entrar
 
-<div class="icone">✔️</div>
+</button>
 
-<h2>Script - KHAN ACADEMY</h2>
+</form>
 
-<p>
-O script esta contando só tempo por enquanto
-em breve terá mais atualizações.
-</p>
+<div class="cadastro">
 
-<span>Avancar →</span>
+Não possui conta?
 
-</a>
+<a href="cadastro.html">
 
-
-<a href="frases-redacao.html" class="agro-card">
-
-<div class="icone">✔️</div>
-
-<h2>Script - REDAÇÃO PARANÁ</h2>
-
-<p>
-Script funcionando 100% todas as funcões, 
-copia e cola redações com IA integrada no
-proprio script.
-</p>
-
-<span>Avancar →</span>
-
-</a>
-
-
-<a href="frases-alura.html" class="agro-card">
-
-<div class="icone">❌​</div>
-
-<h2>Script - ALURA</h2>
-
-<p>
-Script está em manutenção em breve mais
-atualizações.
-</p>
-
-<span>Avancar →</span>
+Cadastrar
 
 </a>
 
 </div>
 
-<section class="videos">
+</div>
 
-    <h2>🎥 Tutoriais em Vídeo</h2>
+<script src="login.js"></script>
 
-    <div class="video-grid">
-
-        <a href="https://www.youtube.com/watch?v=FdOSNhRBIvY"
-           target="_blank"
-           class="video-card">
-
-            <div class="icone">​​🌐​</div>
-
-            <h3>Tutorial do Khan Academy</h3>
-
-            <p>Video explicativo de como colocar o Script,
-              de um CTRL+SHIFT+B, vai descer uma barrinha em baixo
-              da aba de pesquisa é lá que você vai colar os Scripts.
-            </p>
-
-            <button>Assistir Aula ▶</button>
-
-        </a>
-
-        <a href="https://www.youtube.com/watch?v=uco6rOtV8s8"
-           target="_blank"
-           class="video-card">
-
-            <div class="icone">⚡</div>
-
-            <h3>Tutorial do Redação Paraná</h3>
-
-            <p>Video explicativo de como colocar o Script.</p>
-
-            <button>Assistir Aula ▶</button>
-
-        </a>
-
-        <a href="https://www.youtube.com/results?search_query=engenharia+de+prompt+chatgpt"
-           target="_blank"
-           class="video-card">
-
-            <div class="icone">🤖</div>
-
-            <h3>Tutorial do Alura quando lançar o Script</h3>
-
-            <p>Video explicativo de como colocar o Script.</p>
-
-            <button>Assistir Aula ▶</button>
-
-        </a>
-
-    </div>
-
-</section>
+</body>
+</html>
